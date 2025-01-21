@@ -1,0 +1,18 @@
+nome = str(input("Digite seu nome completo: ")).strip()
+separa = nome.split()
+
+print(f"Seu nome em maiúsculas é {nome.upper()}")
+print(f"Seu nome em minúsculas é {nome.lower()}")
+print(f"Seu nome ao todo tem {len(nome) - nome.count(" ")} letras") 
+print(f"Seu primeiro nome tem {len(separa[0])} letras")
+
+# print(len(frase))
+# print(frase[:14])
+# print(frase.count("o",0,14))
+# print(frase.find("deo"))
+# print(frase.find("android"))
+# print("Curso" in frase)
+# print(frase.replace("Python", "Android"))
+# print(frase.capitalize())
+# print(frase.title())
+# print('-'.join(frase))
